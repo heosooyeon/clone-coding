@@ -1,6 +1,6 @@
 
 
-/* div {
+div {
   display:block;
 }
 
@@ -12,25 +12,17 @@ div, th, td, li, dt, dd, p {
   position:relative;
 } */
 
-.NavBar {
-  /* display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-  text-align : center; */
-}
 
 #gnbLogoContainer {
   margin-top: 0 auto;
 }
 
 .NavBarImg {
-  width:123.6px;
-  height:94.8px;
+  width:103px;
+  height:79px;
 }
 
 .logo {
-  /* position:absolute; */
   left:0;
   bottom:6px;
   width:100%;
