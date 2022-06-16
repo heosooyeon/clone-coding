@@ -10,7 +10,7 @@ div, th, td, li, dt, dd, p {
 
 #header, #container, #content {
   position:relative;
-} */
+} 
 
 
 #gnbLogoContainer {
@@ -32,35 +32,41 @@ div, th, td, li, dt, dd, p {
 
 li {
   display: list-item;
-  text-align: -webkit-match-parent;
+  /*/text-align: -webkit-match-parent;/*/
+  float: left;
 }
 
 ol, ul {
-  list-style-type: none;
+  list-style: none;
 }
 
+#userMenu{
+  float:right;
+  padding-right: 25%;
+}
 
-#userMenu * {
-  font-family: noto sans;
-  font-weight: 400;
+#userMenu *{
+  font-weight: bold;
   letter-spacing: -.3px;
+  font-size: 12px;
 }
 
-#userMenu .menu {
-  position : relative;
-  z-index: 400;
-  float : left;
+a{
+  text-decoration-line: none;
 }
 
-#userMenu .menu .lst .link_menu {
-  padding-right:13px;
+.menu{
+  margin-right: 10px;
 }
 
-#userMenu .link_menu {
-  float:left;
-  height:37px;
-  padding: 0 12px;
+#userMenu .link_menu_join{
+  color : #5f0080;
+}
+
+#userMenu .link_menu_login{
   color : #333;
-  line-height:35px;
-  white-space : nowrap;
+}
+
+#userMenu .link_menu_lst{
+  color : #333;
 }
