@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   text-align: center;
 }
 
@@ -35,4 +38,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.NavBar {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align : center;
+}
+
+.NavBarImg {
+  width:123.6px;
+  height:94.8px;
 }
