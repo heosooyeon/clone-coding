@@ -29,3 +29,38 @@ div, th, td, li, dt, dd, p {
   height:79px;
   text-align: center;
 }
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+
+#userMenu * {
+  font-family: noto sans;
+  font-weight: 400;
+  letter-spacing: -.3px;
+}
+
+#userMenu .menu {
+  position : relative;
+  z-index: 400;
+  float : left;
+}
+
+#userMenu .menu .lst .link_menu {
+  padding-right:13px;
+}
+
+#userMenu .link_menu {
+  float:left;
+  height:37px;
+  padding: 0 12px;
+  color : #333;
+  line-height:35px;
+  white-space : nowrap;
+}
