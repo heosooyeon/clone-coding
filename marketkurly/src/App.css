@@ -1,55 +1,39 @@
-.App {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
+
+
+/* div {
+  display:block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div, th, td, li, dt, dd, p {
+  word-break: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
+#header, #container, #content {
+  position:relative;
+} */
 
 .NavBar {
-  display: flex;
+  /* display: flex;
   flex-direction:column;
   justify-content: center;
   align-items: center;
-  text-align : center;
+  text-align : center; */
+}
+
+#gnbLogoContainer {
+  margin-top: 0 auto;
 }
 
 .NavBarImg {
   width:123.6px;
   height:94.8px;
+}
+
+.logo {
+  /* position:absolute; */
+  left:0;
+  bottom:6px;
+  width:100%;
+  height:79px;
+  text-align: center;
 }
